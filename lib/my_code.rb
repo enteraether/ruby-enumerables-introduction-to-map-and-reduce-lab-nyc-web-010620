@@ -52,8 +52,9 @@ def reduce_to_total(source_array, starting_point=0)
   while i < source_array.length do
     new += source_array[i]
     i += 1
+    binding.pry
   end
-  binding.pry
+
     new
 end
 
